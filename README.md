@@ -46,7 +46,7 @@ The Real Estate App is a platform designed for users to seamlessly rent, buy, or
 
 - `GET /api/properties`: Retrieve property data.
 - `POST /api/properties`: Create a new property ad.
-- `PUT /api/properties/:id`: Update an existing property ad.
+- `PATCH /api/properties/:id`: Update an existing property ad.
 - `DELETE /api/properties/:id`: Delete a property ad.
 
 ## Contributing
