@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container h3 {
+    background-color: #304ffe18;
+    color: #304ffe;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+.submit {
+    padding: 10px 0;
+    border: none;
+    background-color: #304ffe;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+    margin-bottom: 20px;
+}
+.submit:hover {
+    transform: scale(1.05);
+  }

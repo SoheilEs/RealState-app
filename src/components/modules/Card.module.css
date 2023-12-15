@@ -1,0 +1,50 @@
+.container{
+    width: 250px;
+    border: 2px solid #304ffe58;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.icon{
+    background-color: #5699e669;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.icon svg {
+    color: #0319a7;
+    font-size: 1.2rem;
+}
+.title {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: gray;
+}
+.price {
+   font-size: 1rem;
+   color: gray;
+   margin-bottom: 10px;
+}
+.container a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0319a7;
+    font-weight: 400;
+}
+.container a svg {
+    font-size: 1.4rem;
+}
